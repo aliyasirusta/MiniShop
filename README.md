@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is Mini-Shop, a basic e-commerce application built with modern web technologies. It showcases core functionalities like product listing, detailed product views, and a shopping cart management system.
 
-## Getting Started
+Key Features:
 
-First, run the development server:
+Product Catalog: Browse a selection of products.
+Product Details: View detailed information for each item.
+Shopping Cart: Add, remove, and manage items in your cart.
+Technologies Used:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+React: For building interactive user interfaces with a component-based approach.
+Next.js: A React framework utilizing App Router for efficient routing and server-side capabilities.
+TypeScript: To ensure code quality, type safety, and better maintainability.
+Context API: For global state management, particularly for the shopping cart.
+FakeStoreAPI: Used as the data source for product information.
+This project demonstrates clean architecture, efficient data fetching, and robust state management in a modern web development environment.
